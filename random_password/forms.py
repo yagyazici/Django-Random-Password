@@ -1,5 +1,5 @@
 from django import forms
-# type="range" class="form-range" min="8" max="16" step="1" id="customRange2"
+
 class passwordForm(forms.Form):
     length = forms.IntegerField(
         widget=forms.NumberInput(attrs={

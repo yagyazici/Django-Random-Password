@@ -1,0 +1,29 @@
+.flex-row {
+  white-space: nowrap;
+}
+
+.btn-success {
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .w-50 {
+    width: 70% !important;
+  }
+  .w-25 {
+    width: 80% !important;
+  }
+  .checkbox {
+    width: 200px;
+    background-color: #098043;
+    color: #fff;
+    margin: auto;
+  }
+  input {
+    margin: auto;
+    display: flex;
+  }
+  .m-0 {
+    text-align: center;
+  }
+}
